@@ -1,14 +1,11 @@
-Output: Save As/Export Schematic
-Type  : Universal Exporter
-From  : Project [The Black Hellebore.PrjPcb]
-   Generated File[MCU.SchDoc]
-   Generated File[TOP.SchDoc]
-   Generated File[Swith_Matrix.SchDoc]
-   Generated File[LED_1.SchDoc]
-   Generated File[LED_2.SchDoc]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [PCB1.PcbDoc]
+   Generated File[Pick Place for PCB1.txt]
+   Generated File[Pick Place for PCB1.csv]
 
 
-Files Generated   : 5
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 5:06:11 PM On 12/31/2022
+Finished Output Generation At 5:17:09 PM On 12/31/2022
