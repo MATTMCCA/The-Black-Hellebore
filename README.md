@@ -7,7 +7,7 @@ What to do with the most popular keyboard on amazon? Reverse engineer! it obviou
 Hardware is a WIP, I have yet to Fab the PCB. 
 
 * CC1 & CC2 Resistors should be 1% not 5%.
-* I really hope I got the swutch spacing and PCB size correct!!
+* I really hope I got the swutch spacing and PCB size correct!! (spoiler, it wasn't, but its been fixed)
 * Prototype has split BOM, PCB will come partially assembled.
 
  
