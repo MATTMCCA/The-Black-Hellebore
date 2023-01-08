@@ -18,6 +18,8 @@ Hardware is a WIP, I have yet to Fab the PCB.
 * Waiting on PCB's
 * Still need to finish assembly. 
 
+---
+
 
 ![Alt text](/src/PCB.png)
 
