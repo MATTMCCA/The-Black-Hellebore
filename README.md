@@ -1,3 +1,4 @@
+
 # The Black Hellebore
 
 ### The Black Hellebore, RK61 PCB (Clone)
@@ -9,6 +10,13 @@ Hardware is a WIP, I have yet to Fab the PCB.
 * CC1 & CC2 Resistors should be 1% not 5%.
 * I really hope I got the switch spacing and PCB size correct!! (spoiler, I didn't, but its been fixed)
 * Prototype has split BOM, PCB will come partially assembled.
+
+
+### Project State
+
+* My Digikey order has arrived.
+* Waiting on PCB's
+* Still need to finish assembly. 
 
 
 ![Alt text](/src/PCB.png)
