@@ -10,6 +10,9 @@ Hardware is a WIP, I have yet to Fab the PCB.
 * I really hope I got the switch spacing and PCB size correct!! (spoiler, I didn't, but its been fixed)
 * Prototype has split BOM, PCB will come partially assembled.
 
+
+![Alt text](/src/PCB.png)
+
  
 # View All Project Files Online
  
