@@ -1,4 +1,3 @@
-
 # The Black Hellebore
 
 ### The Black Hellebore, RK61 PCB (Clone)
@@ -15,7 +14,7 @@ Hardware is a WIP, I have yet to Fab the PCB.
 ### Project State
 
 * My Digikey order has arrived.
-* Waiting on PCB's (ETA Jan 20th)
+* Waiting on PCB's (ETA Jan 20th) - UPDATE: My package is stuck in Singapore... so I don't know when it will arrive.
 * Still need to finish assembly. 
 
 ---
