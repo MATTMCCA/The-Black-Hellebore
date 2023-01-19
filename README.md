@@ -1,10 +1,11 @@
+
 # The Black Hellebore
 
 ### The Black Hellebore, RK61 PCB (Clone)
 
 What to do with the most popular keyboard on amazon? Reverse engineer! it obviously! New and more better, QMK powered PCB for the RK61. Uses actual STM32 not a cloned Sonix IC.
  
-Hardware is a WIP, I have yet to Fab the PCB. 
+Hardware is a WIP, I have Fab'ed the boards, but still need to do some final hand assembly before I can test them.
 
 * CC1 & CC2 Resistors should be 1% not 5%.
 * I really hope I got the switch spacing and PCB size correct!! (spoiler, I didn't, but its been fixed)
@@ -14,7 +15,7 @@ Hardware is a WIP, I have yet to Fab the PCB.
 ### Project State
 
 * My Digikey order has arrived.
-* Waiting on PCB's (ETA Jan 20th) - UPDATE: My package is stuck in Singapore... so I don't know when it will arrive.
+* Waiting on PCB's (ETA Jan 20th) - Arrived 1-8-2023
 * Still need to finish assembly. 
 
 ---
@@ -22,6 +23,7 @@ Hardware is a WIP, I have yet to Fab the PCB.
 
 ![Alt text](/src/PCB.png)
 
+![Alt text](/src/ProjectPics/img003.jpeg)
  
 # View All Project Files Online
  
