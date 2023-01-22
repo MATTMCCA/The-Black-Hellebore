@@ -1,3 +1,4 @@
+
 # The Black Hellebore
 
 ### The Black Hellebore, RK61 PCB (Clone)
@@ -5,6 +6,8 @@
 What to do with the most popular keyboard on amazon? Reverse engineer! it obviously! New and more better, QMK powered PCB for the RK61. Uses actual STM32 not a cloned Sonix IC.
  
 *I would like to note, that during testing of the Black Hellebore, I observed LED flickering, I suspect this is due to insufficient supply voltage. Since the LED supply is limited with a current limiting resistor, cranking the brightness with all LED's on will cause the SK6803MINI-E's to intermittently brown out. (This is my current working theory, pun not intended, but still funny)*
+
+*Edit: This was not a brown out condition*
 
 *HACK Alert, if your know the host port can safely limit the supply current with out damage, you could replace the aforementioned resistor, with zero ohms.*
 
