@@ -1,5 +1,3 @@
-
-
 # The Black Hellebore
 
 ### The Black Hellebore, RK61 PCB (Clone)
@@ -21,7 +19,7 @@ What to do with the most popular keyboard on amazon? Reverse engineer! it obviou
 * My Digikey order has arrived.
 * Waiting on PCB's (ETA Jan 20th) - Arrived 1-8-2023
 * Finished final hand assembly (1-21-2023)
-
+* Tested and confirmed working with QMK and VIA.
 ---
 
 
