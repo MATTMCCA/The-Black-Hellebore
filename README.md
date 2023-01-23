@@ -8,8 +8,6 @@ What to do with the most popular keyboard on amazon? Reverse engineer! it obviou
 
 *Edit: This was not a brown out condition. The RGB LED consists of 3 LED's in parallel, at max brightness the LED with the lowest Vf sinks the most current, thus starving the LED's with a higher forward voltage. Since I'm limiting the supply current to errrr on the side of safety, its recommended to turn the brightness down to achieve satisfactory performance, or! use an effect that only lights up a few LED's*
 
-*Edit Part 2: After thinking about this some more, I think it would be better to use a current mirror vs a current limiting resistor. This would effectively, and precisely limit the LED's operating current without introducing any series resistance. (I need have to test this)*
-
 *HACK Alert, if your know the host port can safely limit the supply current with out damage, you could replace the aforementioned resistor, with zero ohms.*
 
 * CC1 & CC2 Resistors should be 1% not 5%.
