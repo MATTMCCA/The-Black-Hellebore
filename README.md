@@ -17,6 +17,8 @@ Vt = Vr + Vf.
 Ir = Vr / 12 or Vr/Ir = 12. 
 so if Ir increases, Vr must increase. If (VCC - Vr) < (LED Vfx), the led won't illuminate.
 
+If Ir = 100mA, Vcc = 5V | Vr = 1.2V, Vfled = 3.1V
+If Ir = 200mA, Vcc = 5V | Vr = 2.4V, Vfled = 2.6V
 If Ir = 300mA, Vcc = 5v | Vr = 3.6V, Vfled = 1.4V
 
 Red Vf: 1.8~2.2V  
