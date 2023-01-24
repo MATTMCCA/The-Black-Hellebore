@@ -4,11 +4,11 @@
 
 What to do with the most popular keyboard on amazon? Reverse engineer! it obviously! New and more better, QMK powered PCB for the RK61. Uses actual STM32 not a cloned Sonix IC.
  
-*I would like to note, <del> that during testing of the Black Hellebore, I observed LED flickering, I suspect this is due to insufficient supply voltage. Since the LED supply is limited with a current limiting resistor, cranking the brightness with all LED's on will cause the SK6803MINI-E's to intermittently brown out. (This is my current working theory, pun not intended, but still funny)</del>*
-
-*Edit: This was not a brown out condition. The RGB LED consists of 3 LED's in parallel, at max brightness the LED with the lowest Vf sinks the most current, thus starving the LED's with a higher forward voltage. Since I'm limiting the supply current to errrr on the side of safety, its recommended to turn the brightness down to achieve satisfactory performance, or! use an effect that only lights up a few LED's*
+*I would like to note, that during testing of the Black Hellebore, I observed LED flickering. (see edit 2 below)*
 
 *Edit 2: I'm actually using the 12mA variant, SK6812, not the SK6803 (which would of been better for this application)*
+
+*Edit 3: I'm now 100% sure that using a series limiting resistor to regulate the supply current was a really stupid thing to do. I'm sure Georg Simon Ohm is spinning in his grave. I need to revisit my idea of using a current mirror to remove the need for series resistance. MR. OHM'S!! I'M SORRY!!!! I BELIEVE YOU NOW!*
 
 *HACK Alert, if your know the host port can safely limit the supply current with out damage, you could replace the aforementioned resistor, with zero ohms.*
 
