@@ -1,3 +1,4 @@
+
 # The Black Hellebore
 
 ### The Black Hellebore, RK61 PCB (Clone)
@@ -9,6 +10,19 @@ What to do with the most popular keyboard on amazon? Reverse engineer! it obviou
 *Edit 2: I'm actually using the 12mA variant, SK6812, not the SK6803 (which would of been better for this application)*
 
 *Edit 3: I'm now 100% sure that using a series limiting resistor to regulate the supply current was a really stupid thing to do. I'm sure Georg Simon Ohm is spinning in his grave. I need to revisit my idea of using a current mirror to remove the need for series resistance. MR. OHM'S!! I'M SORRY!!!! I BELIEVE YOU NOW!*
+~~~
+V=I*R
+As you increase the brightness, you increase the power draw (P=I*V).
+Vt = Vr + Vf.
+Ir = Vr / 12 or Vr/Ir = 12. 
+so if Ir increases, Vr must increase. If (VCC - Vr) < (LED Vfx), the led won't illuminate.
+
+If Ir = 300mA, Vcc = 5v | Vr = 3.6V, Vfled = 1.4V
+
+Red Vf: 1.8~2.2V  
+Green Vf: 3.0~3.2V  
+Blue Vf: 3.2~3.4V 
+~~~
 
 *HACK Alert, if your know the host port can safely limit the supply current with out damage, you could replace the aforementioned resistor, with zero ohms.*
 
