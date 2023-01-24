@@ -8,11 +8,14 @@ What to do with the most popular keyboard on amazon? Reverse engineer! it obviou
 
 *Edit: This was not a brown out condition. The RGB LED consists of 3 LED's in parallel, at max brightness the LED with the lowest Vf sinks the most current, thus starving the LED's with a higher forward voltage. Since I'm limiting the supply current to errrr on the side of safety, its recommended to turn the brightness down to achieve satisfactory performance, or! use an effect that only lights up a few LED's*
 
+*Edit 2: I'm actually using the 12mA variant, SK6812, not the SK6803 (which would of been better for this application)*
+
 *HACK Alert, if your know the host port can safely limit the supply current with out damage, you could replace the aforementioned resistor, with zero ohms.*
 
 * CC1 & CC2 Resistors should be 1% not 5%.
 * I really hope I got the switch spacing and PCB size correct!! (spoiler, I didn't, but its been fixed)
 * Prototype has split BOM, PCB will come partially assembled.
+* SK6803MINI-E recommended over SK6812MINI-E.
 
 ### Project State
 
