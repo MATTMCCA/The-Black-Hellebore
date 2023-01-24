@@ -5,7 +5,7 @@
 
 What to do with the most popular keyboard on amazon? Reverse engineer! it obviously! New and more better, QMK powered PCB for the RK61. Uses actual STM32 not a cloned Sonix IC.
  
-*I would like to note, that during testing of the Black Hellebore, I observed LED flickering. (see edit 2 below)*
+*I would like to note, that during testing of the Black Hellebore, I observed LED flickering. (see edit 3, below)*
 
 *Edit 2: I'm actually using the 12mA variant, SK6812, not the SK6803 (which would of been better for this application)*
 
