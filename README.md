@@ -1,29 +1,15 @@
 
-
-
 # The Black Hellebore
 
 ### The Black Hellebore, RK61 PCB (Clone)
 
-What to do with the most popular keyboard on amazon? Reverse engineer! it obviously! New! <del>and more better,</del> QMK powered PCB for the RK61. Uses actual STM32 not a cloned Sonix IC.
- 
-*I would like to note, that during testing of the Black Hellebore, I observed LED flickering. (see edit 3.b, below)*
+What to do with the most popular keyboard on amazon? Reverse engineer! it obviously! QMK powered PCB for the RK61. Uses actual STM32 not a cloned Sonix IC.
 
----
-*Edit 2: I'm actually using the 12mA variant, SK6812, not the SK6803 (which would of been better for this application)*
+## Understanding USB 1.0 Power Spec.
 
----
-*Edit 3.b: I'm now 100% sure that using a series limiting resistor to the LED supply was a really stupid thing to do.*
+[In general, the specifications for a USB 1.0 and 2.0 standard downstream port, delivers up to 500 mA or 0.5A.](https://resources.pcb.cadence.com/blog/2020-what-are-the-maximum-power-output-and-data-transfer-rates-for-the-usb-standards) With this statement it becomes clear, the max power available to any system using a **type A** connector is 500mA. If the host implements brick-wall current limiting, and the device attached attempts to draw more than 2.5Watts, the current limiter will start dissipating heat, this heat will lead to thermal shutdown and or possible damage to the host system.
 
-After much research, I don't think I can limit the supply current to a set level without generating heat. At best, limiting the supply current with a current mirror, results in a 50% power loss. I would need to dissipate 250mA, to mirror 250mA (It=500mA).
-
-* Using a fuse seems to be valid, 0ZCG0020AF2C, and it fits the footprint ($0.12 @ 100)
-* Using a FPF2223 (settable load switch with auto retry) is another option ($0.95 @ 100)
-* Using a NUD4001 (High current automotive Led driver) ($0.72 @ 100) (*not sure this will even work*)
-
-**Note on PTC's** Once the PTC trips, PTC's are "damaged", tripping multiple times will "damage" the device further, a cool down period is also involved after trip.
-
-**I'm in favor of the FPF2223, I get a settable trip limit, it trips quick, it auto retries, won't generate heat, won't degrade over time.** 
+**If you do not have mechanisms in place on the device to handle power negotiation, do not assume the host port can supply more than 2.5Watts of power**
 
 ---
 
@@ -37,7 +23,10 @@ After much research, I don't think I can limit the supply current to a set level
 * Finished final hand assembly (1-21-2023)
 * Tested and confirmed working with QMK and VIA.
 * Figured out all of the things (duration, too long...)
-* Board Revision Pending....
+* Board Revision Pending.... 
+* Board Rev Finished (1-28-2023, sent to fab)
+* Waiting on PCB's (ETA unknown)
+
 ---
 
 

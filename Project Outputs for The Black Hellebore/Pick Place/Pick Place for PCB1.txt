@@ -4,23 +4,30 @@ C:\Users\Public\Documents\Altium\The Black Hellebore\Project Outputs for The Bla
 ========================================================================================================================
 File Design Information:
 
-Date:       03/01/23
-Time:       18:47
-Revision:   35d342f83831e6f8252f1fb9a81db0939671c6c1
+Date:       28/01/23
+Time:       15:14
+Revision:   929fb0dfa4fb4443f15af411d6facc68b2070bfa
 Variant:    No variations
 Units used: mm
 
 Designator Comment            Layer       Footprint                 Center-X(mm) Center-Y(mm) Rotation Description                                                                                                                                
+S61        1U-5Pin            BottomLayer SW_PG151101S11            272.7288     5.2350       180      "Keyswitch 1U Cherry MX, 5Pin, CPG151101S11-16"                                                                                            
+R10        RMCF0603ZT0R00     BottomLayer FP-RMCF0603-MFG           276.3520     32.5120      0        "Res Thick Film 0603 0 Ohm Jumper 1/10W 100Ppm/ C Smd Rohs Compliant: Yes"                                                                 
+R9         RMCF0603FT68K0     BottomLayer FP-RMCF0603-MFG           271.7800     23.4950      90       "Res Thick Film 0603 68K Ohm 1% 0.1W(1/10W) ±100ppm/C Pad SMD Automotive T/R"                                                              
+R8         RMCF0603JT100K     BottomLayer FP-RMCF0603-MFG           274.1930     19.5580      90       "Res Thick Film 0603 100K Ohm 5% 1/10W ±200ppm/°C Molded SMD Paper T/R"                                                                    
+D62        RB520S30T5G        BottomLayer ONSC-SOD-523-2-502-01_V   275.0820     21.7170      180      "RB520S30T5G - 30 V 200 mA Surface Mount Schottky Diode - SOD-523"                                                                         
+U4         AP22653AW6-7       BottomLayer SOT26-A1_DIO              274.5740     24.2570      180      "PRECISION ADJUSTABLE CURRENT-LIMITED POWER SWITCHES, -40 to 85°C pF, RoHS"                                                                
+C73        CC0603JRX7R7BB105  BottomLayer FP-CC0603-DA-MFG          275.8440     19.5580      90       "Cap Ceramic 1uF 16V X7R 5% SMD 0603 125°C Paper T/R"                                                                                      
+C72        GRM21BR71A106KA73K BottomLayer FP-GRM21B-0_15-MFG        274.8280     27.3050      0        "Cap Ceramic 10uF 10V X7R 10% Pad SMD 0805 125C T/R"                                                                                       
 U2         AP2139AK-3.3TRG1   BottomLayer DBV0005A-IPC_A            112.6490     8.1280       270      "IC REG LDO 3.3V 0.25A SOT25"                                                                                                              
-R2         352212RFT          BottomLayer RESC6332X120N             275.7170     22.9870      270      "Res Thick Film 2512 12 Ohm 1% 3W ±100ppm/C Pad SMD Automotive T/R"                                                                        
-C69        GRM21BR71A106KA73K BottomLayer FP-GRM21B-0_15-MFG        112.6490     4.9530       180      "Cap Ceramic 10uF 10V X7R 10% Pad SMD 0805 125C T/R"                                                                                       
+R2         RMCF0603JT10K0     BottomLayer FP-RMCF0603-MFG           274.9550     30.8610      0        "Res Thick Film 0603 10K Ohm 5% 1/10W ±100ppm/°C Molded SMD SMD Paper T/R"                                                                 
+C69        CC0603JRX7R9BB104  BottomLayer FP-CC0603-DA-MFG          112.5220     4.9530       180      "0603 0.1 uF 50 V ±5 % Tolerance X7R SMT Multilayer Ceramic Capacitor"                                                                     
 C68        GRM21BR71A106KA73K BottomLayer FP-GRM21B-0_15-MFG        112.6490     11.3030      180      "Cap Ceramic 10uF 10V X7R 10% Pad SMD 0805 125C T/R"                                                                                       
 J1         DX07S016JA1R1500   BottomLayer FP-DX07S016JA1R1500-MFG   36.9089      88.7000      0        "Connector, USB Type C Receptacle, 1500 piece reel, 16 Pin Version"                                                                        
 C47        CC0603JRX7R9BB104  BottomLayer FP-CC0603-DA-MFG          140.9700     32.6390      0        "0603 0.1 uF 50 V ±5 % Tolerance X7R SMT Multilayer Ceramic Capacitor"                                                                     
 U3         MIC803-26D4VC3-TR  BottomLayer SC-70_C3_MCH              86.4870      15.1130      270      "3-Pin Microprocessor Supervisor Circuit w/ Open-Drain Reset Output"                                                                       
 U1         STM32L412CBT6      BottomLayer FP-LQFP48-5B-MFG          87.5030      8.7630       180      "STMICROELECTRONICS - STM32L412CBT6 - ARM MCU, STM32 Family STM32L4 Series Microcontrollers, ARM Cortex-M4, 32bitu, 80 MHz, 128 KB, 40 KB" 
 SW1        PTS526SK15SMTR2LFS BottomLayer FP-PTS526SK15SMTR2LFS-MFG 105.9180     7.2390       270      "Switch Tactile N.O. SPST Round Button Gull Wing 0.05A 12VDC 200000Cycles 2.55N SMD T/R"                                                   
-S61        1U-5Pin            BottomLayer SW_PG151101S11            272.7288     5.2350       180      "Keyswitch 1U Cherry MX, 5Pin, CPG151101S11-16"                                                                                            
 S60        1U-5Pin            BottomLayer SW_PG151101S11            248.9163     5.2350       180      "Keyswitch 1U Cherry MX, 5Pin, CPG151101S11-16"                                                                                            
 S59        1U-5Pin            BottomLayer SW_PG151101S11            225.1038     5.2350       180      "Keyswitch 1U Cherry MX, 5Pin, CPG151101S11-16"                                                                                            
 S58        1U-5Pin            BottomLayer SW_PG151101S11            201.2913     5.2350       180      "Keyswitch 1U Cherry MX, 5Pin, CPG151101S11-16"                                                                                            
