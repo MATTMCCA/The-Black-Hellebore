@@ -1,4 +1,5 @@
 
+
 # The Black Hellebore
 
 ### The Black Hellebore, RK61 PCB (Clone)
@@ -9,7 +10,9 @@ What to do with the most popular keyboard on amazon? Reverse engineer! it obviou
 
 [In general, the specifications for a USB 1.0 and 2.0 standard downstream port, delivers up to 500 mA or 0.5A.](https://resources.pcb.cadence.com/blog/2020-what-are-the-maximum-power-output-and-data-transfer-rates-for-the-usb-standards) With this statement it becomes clear, the max power available to any system using a **type A** connector is 500mA. If the host implements brick-wall current limiting, and the device attached attempts to draw more than 2.5Watts, the current limiter will start dissipating heat, this heat will lead to thermal shutdown and or possible damage to the host system.
 
-**If you do not have mechanisms in place on the device to handle power negotiation, do not assume the host port can supply more than 2.5Watts of power**
+*If you do not have mechanisms in place on the device to handle power negotiation, do not assume the host port can supply more than 2.5Watts of power*
+
+*The above is **not** an overview of the IEC power standard for DC power delivery over USB, the design in this repo is non-commercial, and will not be for sale*
 
 ---
 
