@@ -1,6 +1,6 @@
 # The Black Hellebore
 
-### The Black Hellebore, RK61 PCB (Clone)
+### The Black Hellebore, RK61 PCB (Redesign)
 
 What to do with the most popular keyboard on amazon? Reverse engineer! it obviously! QMK powered PCB for the RK61. Uses actual STM32 not a cloned Sonix IC.
 
