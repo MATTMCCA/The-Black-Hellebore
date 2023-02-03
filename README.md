@@ -31,7 +31,7 @@ Building on this further, it makes since why most USB type A ports provide more 
 * Figured out all of the things (duration, too long...)
 * Board Revision Pending.... 
 * Board Rev Finished (1-28-2023, sent to fab)
-* Waiting on PCB's (ETA unknown)
+* Waiting on PCB's (ETA 2-10-2022)
 
 ---
 
