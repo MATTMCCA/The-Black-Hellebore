@@ -47,9 +47,10 @@ I removed all of the RGB LED's and checked the first row of pads, no shorts. I r
 
 I'm going to add a keep out area around the RGB LED's to prevent my future revision from suffering the same fate as 1.2.0. .....that's another punch to the wallet, I'm not making that mistake again.... I also expected better milling from JLCPCB.
 
+### A Small Win
+From what I can tell, the auto retry feedback network on the ```AP22653AW6-7``` worked as designed. When a fault occurs, oscillation takes place in the feedback network. When the short is removed the enable signal stays high, it was neat to see it in action for the first time on the scope.
+
 ---
-
-
 
 
 ![Alt text](/src/PCB.png)
