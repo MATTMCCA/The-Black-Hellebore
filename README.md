@@ -1,3 +1,4 @@
+
 # The Black Hellebore
 
 ### The Black Hellebore, RK61 PCB (Redesign)
@@ -32,9 +33,24 @@ Building on this further, it makes since why most USB type A ports provide more 
 * Board Revision Pending.... 
 * Board Rev Finished (1-28-2023, sent to fab)
 * Waiting on PCB's (ETA 2-10-2023) - Arrived 2-6-2023
-* Waiting for the weekend so I can do the final assembly, (I might film a vid of the assembly process for kicks)
+* Started finial hand assembly (2-11-2023) (see project log below) 
+* Board Revision Pending.... 
+
+
+# Project Log
+
+### Epic Fail
+I began soldering the MCU and current switch IC and everything was going smooth. After I soldered the first row of LED's, I applied power and nothing happened. It was at this point I began to suspect my clever feedback network, sure enough I was getting zero volts on the output. 
+
+Without a second thought, I depopulated the retry network and tested the circuit again. Same result, no RGB. I started measuring the RGB PWM of the MCU with my scope, I was getting no PWM output, I thought "Great! I zapped my STM32". I removed power from the circuit, then started poking around with my meter, come to find out, every RGB LED was shorted to ground.
+
+I removed all of the RGB LED's and checked the first row of pads, no shorts. I replaced the LED, and there's a short!! I tried 5 different LED's before I noticed it..... JLCPCB milled into the ground pore copper!!!! see **001.bmp & 002.bmp**. When the LED is soldered, a short occurs between the pin and the ground plane.  
+
+I'm going to add a keep out area around the RGB LED's to prevent my future revision from suffering the same fate as 1.2.0. .....that's another punch to the wallet, I'm not making that mistake again....
 
 ---
+
+
 
 
 ![Alt text](/src/PCB.png)
