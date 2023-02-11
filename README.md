@@ -1,4 +1,3 @@
-
 # The Black Hellebore
 
 ### The Black Hellebore, RK61 PCB (Redesign)
@@ -44,9 +43,9 @@ I began soldering the MCU and current switch IC and everything was going smooth.
 
 Without a second thought, I depopulated the retry network and tested the circuit again. Same result, no RGB. I started measuring the RGB PWM of the MCU with my scope, I was getting no PWM output, I thought "Great! I zapped my STM32". I removed power from the circuit, then started poking around with my meter, come to find out, every RGB LED was shorted to ground.
 
-I removed all of the RGB LED's and checked the first row of pads, no shorts. I replaced the LED, and there's a short!! I tried 5 different LED's before I noticed it..... JLCPCB milled into the ground pore copper!!!! see **001.bmp & 002.bmp**. When the LED is soldered, a short occurs between the pin and the ground plane.  
+I removed all of the RGB LED's and checked the first row of pads, no shorts. I replaced the LED, and there's a short!! I tried 5 different LED's before I noticed it..... JLCPCB milled into the ground pore copper!!!! see **001.bmp & 002.bmp**. When the LED is soldered, a short occurs between the pin and the ground plane. I'm wondering if this issue affected rev 1.1.0 also.
 
-I'm going to add a keep out area around the RGB LED's to prevent my future revision from suffering the same fate as 1.2.0. .....that's another punch to the wallet, I'm not making that mistake again....
+I'm going to add a keep out area around the RGB LED's to prevent my future revision from suffering the same fate as 1.2.0. .....that's another punch to the wallet, I'm not making that mistake again.... I also expected better milling from JLCPCB.
 
 ---
 
