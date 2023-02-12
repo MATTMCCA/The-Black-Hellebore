@@ -1,11 +1,11 @@
 Output: Generates pick and place files
 Type  : Pick Place
-From  : Variant [[No Variations]] of PCB Document [PCB1.PcbDoc]
-   Generated File[Pick Place for PCB1.txt]
-   Generated File[Pick Place for PCB1.csv]
+From  : Variant [Variant of The Black Hellebore] of PCB Document [PCB1.PcbDoc]
+   Generated File[Pick Place for PCB1(Variant of The Black Hellebore).txt]
+   Generated File[Pick Place for PCB1(Variant of The Black Hellebore).csv]
 
 
 Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 3:14:02 PM On 1/28/2023
+Finished Output Generation At 10:59:51 AM On 2/12/2023

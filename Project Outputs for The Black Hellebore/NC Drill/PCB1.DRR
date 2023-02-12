@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: PCB1.PcbDoc   1/28/2023  3:13:41 PM
+NCDrill File Report For: PCB1.PcbDoc   2/12/2023  10:59:36 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Copper to Bottom Copper
@@ -8,7 +8,7 @@ ASCII SlotHoles File : PCB1-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.3mm)                                             Round             505       PTH        145.06inch (3684.62mm)
+T1      12mil (0.3mm)                                             Round             509       PTH        146.87inch (3730.38mm)
 T2      24mil (0.599mm)                                           Slot              4         PTH        1.48inch (37.58mm)
 T3      98mil (2.499mm)                                           Round             5         PTH        20.60inch (523.23mm)
 T4      24mil (0.599mm)                                           Round             1         NPTH       0.00inch (0.00mm)
@@ -18,6 +18,6 @@ T7      118mil (3mm)                                              Round         
 T8      157mil (3.988mm)                                          Round             61        NPTH       57.93inch (1471.53mm)
 T9      236mil (5.999mm)                                          Round             4         NPTH       25.33inch (643.43mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              825
+Totals                                                                              829
 
 Total Processing Time (hh:mm:ss) : 00:00:01
