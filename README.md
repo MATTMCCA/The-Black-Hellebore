@@ -6,7 +6,7 @@ What to do with the most popular keyboard on amazon? Reverse engineer it obvious
 
 **The PCB design in this repository is not intended for commercial sales**
 
-**[Watch the hand assembly on youtube (dummy link)](https://www.google.com)**
+**[Watch the hand assembly video on Youtube (dummy link)](https://youtu.be/LSLgVDbKAb0)**
 
 ## Understanding USB 2.0 Power Spec.
 
