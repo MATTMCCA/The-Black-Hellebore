@@ -6,6 +6,7 @@ What to do with the most popular keyboard on amazon? Reverse engineer it obvious
 
 **The PCB design in this repository is not intended for commercial sales**
 
+![Watch the hand assembly (dummy link)](https://www.google.com)
 
 ## Understanding USB 2.0 Power Spec.
 
@@ -52,8 +53,6 @@ I'm going to add a keep out area around the RGB LED's to prevent my future revis
 From what I can tell, the auto retry feedback network on the ```AP22653AW6-7``` worked as designed. When a fault occurs, oscillation takes place in the feedback network. When the short is removed the enable signal stays high, it was neat to see it in action for the first time on the scope.
 
 ---
-
-![Watch the hand assembly (dummy link)](https://www.google.com)
 
 
 ![Alt text](/src/PCB.png)
