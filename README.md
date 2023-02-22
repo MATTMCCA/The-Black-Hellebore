@@ -53,6 +53,8 @@ From what I can tell, the auto retry feedback network on the ```AP22653AW6-7``` 
 
 ---
 
+![Watch the hand assembly (dummy link)](https://www.google.com)
+
 
 ![Alt text](/src/PCB.png)
 
