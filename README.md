@@ -6,7 +6,13 @@ What to do with the most popular keyboard on amazon? Reverse engineer it obvious
 
 **The PCB design in this repository is not intended for commercial sales**
 
-Due to user errrrrrrr, the vid is part one of assembly, it consists of only usable frames, so its like a time laps. **[Watch the hand assembly video on Youtube](https://youtu.be/pHmtwitVRQc)**
+---
+
+Due to user errrrrrrr, the vid is part one of assembly, it consists of only usable frames, so its like a time laps. 
+* **[Watch the hand assembly video on Youtube : PART I](https://youtu.be/pHmtwitVRQc)**
+* **Watch the not screwed up vid : PART II (footage pending)**
+
+---
 
 ## Understanding USB 2.0 Power Spec.
 
@@ -36,6 +42,9 @@ Building on this further, it makes since why most USB type A ports provide more 
 * Started finial hand assembly (2-11-2023) (see project log below) 
 * Board Revision Pending.... 
 * Sent version 1.2.1 to fab
+* Got 1.2.1 from fab, all is well
+* Inadvertently filmed a time laps (2-22-2023)
+* non time laps video pending.
 
 
 # Project Log
