@@ -9,7 +9,7 @@ What to do with the most popular keyboard on amazon? Reverse engineer it obvious
 ---
 
 Due to user errrrrrrr, the first video is part one of assembly, it consists of only usable frames, so its like a time laps. 
-* **[Watch the Hand Assembly Video : PART I](https://youtu.be/pHmtwitVRQc)**
+* **[Watch the Hand Assembly Video : PART I](https://youtu.be/cKcGKz691ds)**
 * **[Watch the Hand Assembly Video : PART II](https://youtu.be/HiYZSflaqEU)**
 * **[Watch the Solder Joint Repair Video : PART III](https://youtu.be/VTa4d78aN-c)**
 
