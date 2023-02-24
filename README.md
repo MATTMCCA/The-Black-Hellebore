@@ -2,15 +2,16 @@
 
 ### The Black Hellebore, RK61 PCB (Redesign)
 
-What to do with the most popular keyboard on amazon? Reverse engineer it obviously! QMK powered PCB for the RK61. Uses actual STM32 not a cloned Sonix IC.
+What to do with the most popular keyboard on amazon? Reverse engineer it obviously! QMK powered PCB for the RK61. The design uses actual STM32 IC.
 
 **The PCB design in this repository is not intended for commercial sales**
 
 ---
 
-Due to user errrrrrrr, the vid is part one of assembly, it consists of only usable frames, so its like a time laps. 
-* **[Watch the hand assembly video on Youtube : PART I](https://youtu.be/pHmtwitVRQc)**
-* **[Watch the not screwed up vid : PART II](https://youtu.be/HiYZSflaqEU)**
+Due to user errrrrrrr, the first video is part one of assembly, it consists of only usable frames, so its like a time laps. 
+* **[Watch the Hand Assembly Video : PART I](https://youtu.be/pHmtwitVRQc)**
+* **[Watch the Hand Assembly Video : PART II](https://youtu.be/HiYZSflaqEU)**
+* **[Watch the Solder Joint Repair Video : PART III](https://youtu.be/VTa4d78aN-c)**
 
 ---
 
