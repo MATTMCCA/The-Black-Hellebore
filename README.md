@@ -45,6 +45,7 @@ Building on this further, it makes since why most USB type A ports provide more 
 * Got 1.2.1 from fab, all is well
 * Inadvertently filmed a time laps (2-22-2023)
 * non time laps video pending.
+* Project done, the PCB works perfect!
 
 
 # Project Log
