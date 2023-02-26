@@ -29,6 +29,7 @@ Building on this further, it makes since why most USB type A ports provide more 
 * CC1 & CC2 Resistors should be 1% not 5%.
 * SK6803MINI-E is recommended over SK6812MINI-E.
 
+
 ## Project State
 
 * My Digikey order has arrived.
@@ -47,6 +48,7 @@ Building on this further, it makes since why most USB type A ports provide more 
 * non time laps video pending.
 * Project done, the PCB works perfect!
 
+*My fancy USB cable reported a 1.5Watt power draw before the load switch went into auto recover. This tells me, my current limit is actually set to around 300mA, not 445mA as calculated.*
 
 # Project Log
 
