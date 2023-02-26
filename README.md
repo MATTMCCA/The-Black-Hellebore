@@ -11,6 +11,7 @@ What to do with the most popular keyboard on amazon? Reverse engineer it obvious
 * **[Watch the Hand Assembly Video : PART I](https://youtu.be/cKcGKz691ds)**
 * **[Watch the Hand Assembly Video : PART II](https://youtu.be/HiYZSflaqEU)**
 * **[Watch the Solder Joint Repair Video : PART III](https://youtu.be/VTa4d78aN-c)**
+* **[Watch Load Switch Demo](https://youtu.be/AGMwodDWTGg)**
 
 ---
 
